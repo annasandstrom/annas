@@ -1,0 +1,58 @@
+body {
+	background-color: #dbdbdb;
+}
+
+.navbar-default {
+	background-color: #A1D0C1;
+	border: 0px;
+}
+
+a {
+	color: white;
+}
+
+a:hover{
+
+	color: black;
+}
+
+.navbar-fixed-bottom {
+	background-color: #454545;
+}
+
+
+.navbar .navbar-inner {
+    padding: 0;
+}
+
+.navbar .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+
+.nav-justified li {
+    display: table-cell;
+    width: 1%;
+    float: none;
+    background-color: pink;
+}
+
+.nav-justified li a {
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, .75);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.nav-justified li:first-child a {
+    border-left: 0;
+
+}
+
+.nav-justified li:last-child a {
+    border-right: 0;
+
+}
+.nav{
+	width: 100%;
+}
