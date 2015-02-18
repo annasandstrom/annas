@@ -1,9 +1,15 @@
 body {
-	background-color: #dbdbdb;
+	background-color: #FFFFFF;
+	font-family: Century gothic;
+}
+
+
+.container {
+
 }
 
 .navbar-default {
-	background-color: #A1D0C1;
+	background-color: #FFFFFF;
 	border: 0px;
 }
 
@@ -17,7 +23,13 @@ a:hover{
 }
 
 .navbar-fixed-bottom {
-	background-color: #454545;
+	background-color: #4B647D;
+    height: 120px;
+    padding-top: 20px;
+}
+
+.navbar-fixed-bottom a {
+    padding: 10px;
 }
 
 
@@ -35,7 +47,8 @@ a:hover{
     display: table-cell;
     width: 1%;
     float: none;
-    background-color: pink;
+    background-color: #4B647D;
+    left: 17px;
 }
 
 .nav-justified li a {
